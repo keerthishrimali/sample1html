@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#home {
+    background: url("../Screenshot.png") no-repeat fixed 50% 0 transparent;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    height: 1000px;
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    width: 100%;
+}
+#about {
+    background: url("../Screenshot-1.png") no-repeat fixed 50% 0 transparent;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    height: 1000px;
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    width: 100%;
+}
+#home article {
+    background: url("../intro.png") no-repeat scroll center top transparent;
+    height: 458px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 291px;
+    width: 100%;
+}
+#about article {
+    background: url("../parallax.png") no-repeat scroll center top transparent;
+    height: 458px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 291px;
+    width: 100%;
+}
